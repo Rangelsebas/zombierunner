@@ -15,7 +15,8 @@ MonoBehaviour:
   FPCamera: {fileID: 4504029245344998934}
   range: 100
   damage: 30
-  muzzleFlash: {fileID: 6591602704432198317}
+  muzzleFlash: {fileID: 1689465276938674861}
+  hitEffect: {fileID: 73423902948220199, guid: 0909e997bd11e4f299d3d16632448d52, type: 3}
 --- !u!33 &1822400672
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -153,7 +154,7 @@ MonoBehaviour:
   playerCam: {fileID: 4504029246196170947}
   orientation: {fileID: 4504029246128986654}
   xRotation: 0
-  sensitivity: 70
+  sensitivity: 65
   sensMultiplier: 1
   moveSpeed: 4500
   maxSpeed: 20
@@ -606,6 +607,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carbine
       objectReference: {fileID: 0}
+    - target: {fileID: 3022945642112371506, guid: ada2587319194f542957a8c2ae277cb9,
+        type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022945642112371506, guid: ada2587319194f542957a8c2ae277cb9,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022945642112371506, guid: ada2587319194f542957a8c2ae277cb9,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.minScalar
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022945642112371506, guid: ada2587319194f542957a8c2ae277cb9,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022945642112371506, guid: ada2587319194f542957a8c2ae277cb9,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.minScalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022945642112371506, guid: ada2587319194f542957a8c2ae277cb9,
+        type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022945642112371506, guid: ada2587319194f542957a8c2ae277cb9,
+        type: 3}
+      propertyPath: ShapeModule.angle
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7273929921998371012, guid: ada2587319194f542957a8c2ae277cb9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -635,9 +671,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4504029245586352543}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &6591602704432198317 stripped
+--- !u!198 &1689465276938674861 stripped
 ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 7348631044939733810, guid: ada2587319194f542957a8c2ae277cb9,
+  m_CorrespondingSourceObject: {fileID: 3022945642112371506, guid: ada2587319194f542957a8c2ae277cb9,
     type: 3}
   m_PrefabInstance: {fileID: 4504029245586352543}
   m_PrefabAsset: {fileID: 0}
