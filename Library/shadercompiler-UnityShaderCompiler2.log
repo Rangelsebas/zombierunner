@@ -1,2 +1,24 @@
 Base path: '/Applications/Unity/Hub/Editor/2019.4.5f1/Unity.app/Contents', plugins path '/Applications/Unity/Hub/Editor/2019.4.5f1/Unity.app/Contents/PlaybackEngines'
 Cmd: initializeCompiler
+Cmd: compileSnippet
+  api=14 type=0 insize=7919 outsize=8517 kw=DECALS_3RT DEBUG_DISPLAY _NORMALMAP_TANGENT_SPACE _NORMALMAP _MASKMAP pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: compileSnippet
+  api=14 type=0 insize=3425 outsize=6792 kw=DEBUG_DISPLAY pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3255 outsize=5710 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=7704 outsize=14551 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=5118 outsize=7723 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3211 outsize=4795 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2101 outsize=3310 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=3589 outsize=5621 ok=1
+Cmd: compileComputeKernel
+  api=14 insize=6383 outsize=2839 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2839 outsize=4570 ok=1
+Cmd: translateComputeKernel
+  api=14 insize=2676 outsize=4690 ok=1
