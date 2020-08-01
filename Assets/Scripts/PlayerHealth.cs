@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float hitPoints = 200f;
+    public float hitPoints = 100f;
     public float currentHealth;
 
     public HealthBar healthBar;
@@ -16,6 +16,7 @@ public class PlayerHealth : MonoBehaviour
         {
             Debug.Log("you dead");
         }
+        currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
     }
 
