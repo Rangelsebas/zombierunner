@@ -39,6 +39,8 @@ GameObject:
   - component: {fileID: 4504029244883601397}
   - component: {fileID: 4504029244883601392}
   - component: {fileID: 4504029244883601393}
+  - component: {fileID: 600624409}
+  - component: {fileID: 600624404}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -167,6 +169,33 @@ MonoBehaviour:
   slideForce: 400
   slideCounterMovement: 0.2
   jumpForce: 550
+--- !u!114 &600624409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4504029244883601402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7701e620c83b49118a9484c79c2df13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 100
+  currentHealth: 0
+  healthBar: {fileID: 0}
+--- !u!114 &600624404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4504029244883601402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52634fc6887284f18a703b842ee091aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4504029245121486450
 GameObject:
   m_ObjectHideFlags: 0
