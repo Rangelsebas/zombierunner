@@ -40,7 +40,7 @@ public class EnemyAI : MonoBehaviour
 
     public void OnDamageTaken()
     {
-        isProvoke = true;
+        isProvoke = true; 
     }
 
     private void EngageTarget()
