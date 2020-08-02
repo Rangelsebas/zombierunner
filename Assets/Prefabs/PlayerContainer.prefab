@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7701e620c83b49118a9484c79c2df13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 100
+  hitPoints: 150
   currentHealth: 0
   healthBar: {fileID: 0}
 --- !u!114 &600624404
@@ -196,6 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52634fc6887284f18a703b842ee091aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverCanvas: {fileID: 0}
 --- !u!1 &4504029245121486450
 GameObject:
   m_ObjectHideFlags: 0

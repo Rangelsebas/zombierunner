@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float hitPoints = 100f;
+    public float hitPoints = 150f;
     public float currentHealth;
 
     public HealthBar healthBar;
