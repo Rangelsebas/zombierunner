@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
+     <Compile Include="Assets\Scripts\Ammo.cs" />
      <Compile Include="Assets\Scripts\DeathHandler.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\EnemyAttack.cs" />
