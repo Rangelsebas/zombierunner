@@ -40,6 +40,7 @@
      <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
      <Compile Include="Assets\Reichsrevolver_M1879\Scripts\RevolverController.cs" />
      <Compile Include="Assets\Scripts\Ammo.cs" />
+     <Compile Include="Assets\Scripts\AmmoPickup.cs" />
      <Compile Include="Assets\Scripts\AmmoType.cs" />
      <Compile Include="Assets\Scripts\DeathHandler.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
