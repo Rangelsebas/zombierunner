@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\SceneLoader.cs" />
+     <Compile Include="Assets\Scripts\Scope.cs" />
      <Compile Include="Assets\Scripts\WeaponSwitcher.cs" />
      <Compile Include="Assets\Scripts\WeaponZoom.cs" />
      <Compile Include="Assets\Scripts\Weapons.cs" />
